@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://NadejdaGoncharik.github.io/rsschool-cv/
