@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>First page</title>
+    <h1>Моя первая страница</h1>
+</head>
+<body>
+<p>
+    Чтобы поближе познакомиться со мной и с моей деятельностью, можно пройти по ссылке <a href="./about/index.html">Об авторе</a>
+</p>
+<hr>
+<p><strong>FrontEnd</strong> разработчик создает видимую для пользователя часть веб-страницы и его главная задача – точно передать
+    в верстке то, что создал дизайнер, а также реализовать пользовательскую логику.</p>
+<p>&#9752;  &#9759;</p>
+<p>&#127850;Для того, чтобы стать FrontEnd разработчиком, не нужны знания математики. Освоить специальность Вы сможете за
+    3-6 месяцев, в зависимости от того, сколько времени будете уделять теории и кодингу.
+    Наша программа обучения выверена на практике и включает в себя самые необходимые и современные технологии&#127881;</p>
+<img src="img/smile.jpg" alt="good luck"><img src="https://vjoy.cc/wp-content/uploads/2020/08/849998.jpeg" alt="you can">
+<div></div>
+<ol>
+    <li>
+        <ul>Знакомство с Web
+            <li>Краткая история Web и что такое интернет.</li>
+            <li>Как устроен браузер и как он получает страницы по сети.</li>
+            <li>Что такое Git?</li>
+            <li>Создание первого репозитория.</li>
+            <li>О файле .gitignore.</li>
+        </ul>
+    </li>
+    <li>
+        <ul>HTML-вёрстка - первые шаги
+            <li>Настройка рабочей среды.</li>
+            <li>Краткая история HTML.</li>
+            <li>Какие бывают теги и что такое атрибут.</li>
+            <li>Создание собственной страницы.</li>
+        </ul>
+    </li>
+    <li>
+        <ul>Погружение в HTML-разметку
+            <li>Мета-теги.</li>
+            <li>Мнемоники.</li>
+            <li>Тег для работы с изображениями.</li>
+            <li>Теги для работы со списками.</li>
+            <li>Теги для работы с таблицами.</li>
+            <li>Теги для работы с формами.</li>
+            <li>Div-блоки.</li>
+        </ul>
+    </li>
+</ol>
+<p></p>
+<table border="2">
+    <caption><strong>General tags for table</strong></caption>
+    <thead>
+        <tr>
+            <th>&lt;table&gt;</th>
+            <th>Defines a table</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>&lt;tr&gt;</td>
+        <td>Defines a row in a table задаёт строку</td>
+    </tr>
+    <tr>
+        <td>&lt;th&gt;</td>
+        <td rowspan="2">Defines a &#34;header cell&#34; &#47; &#34;cell&#34; in a table</td>
+    </tr>
+    <tr>
+        <td>&lt;td&gt;</td>
+    </tr>
+    <tr>
+        <td colspan="2">Rarely used</td>
+    </tr>
+    <tr>
+        <td>&lt;caption&gt;</td>
+        <td>Defines a table caption</td>
+    <tr>
+        <td>&lt;thead&gt;</td>
+        <td>Groups the header content in a table</td>
+    </tr>
+    <tr>
+        <td>&lt;tbody&gt;</td>
+        <td>Groups the body content in a table</td>
+    </tr>
+    <tr>
+        <td>&lt;tfoot&gt;</td>
+        <td>Groups the footer content in a table</td>
+    </tr>
+    </tbody>
+</table>
+<p></p>
+<form action="/" method="get" name="My first form">
+    <div><label for="Name">Name</label></div>
+    <div><input id="Name" type="text" placeholder="Name" required></div>
+    <div><label for="Email">Email</label></div>
+    <div><input id="Email" type="text" required></div>
+    <div><label for="Password">Password</label></div>
+    <div><input id="Password" type="password" required></div>
+    <div><label>Your programming level</label></div>
+    <div><input type="range" min="0" max="10"></div>
+    <p></p>
+    <div><label>What does HTML stand for?</label></div>
+    <p></p>
+    <div><input type="checkbox"><label>Hyperlinks and Text Markup Language</label></div>
+    <div><input type="checkbox"><label>Home tool Markup Language</label></div>
+    <div><input type="checkbox"><label>Hyper Text Markup Language</label></div>
+    <p></p>
+    <div><label>What does HTTP stand for?</label></div>
+    <p></p>
+    <div><input type="radio" name="http" value="transl"><label>Hyper Text Translate Protocol</label></div>
+    <div><input type="radio" name="http" value="transm"><label>Hyper Text Transmission Protocol</label></div>
+    <div><input type="radio" name="http" value="transf"><label>Hyper Text Transfer Protocol</label></div>
+   <label>Comment<br>
+   <textarea name="Comment" cols="30" rows="2" maxlength="500">Comment</textarea></label>
+    <div><label>What does HTML stand for?</label></div>
+    <select>
+        <option value="Your answer">Your answer</option>
+        <option value="Hyperlinks and Text Markup Language">Hyperlinks and Text Markup Language</option>
+        <option value="Home tool Markup Language">Home tool Markup Language</option>
+        <option value="Hyper Text Markup Language">Hyper Text Markup Language</option>
+        </select>
+    <p></p>
+</form>
+</body>
+</html>
